@@ -47,9 +47,7 @@ const handleAuthorization = async (req, res) => {
 			.catch(function (error) {
 				console.log(error);
 			});
-		// Данные пользователя теперь доступны в userInfo
 
-		// res.status(200).json(userInfo);
 		res.redirect(`${process.env.NEXT_PUBLIC_HOSTNAME}/profile?googleId=${userInfo.id}`);
 
 	} catch (error) {
