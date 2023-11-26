@@ -1,1 +1,1 @@
-export const JWT_SECRET = 'super-super-secret'
+export const JWT_SECRET = 'jwt-secret'
