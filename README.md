@@ -1,6 +1,6 @@
 # Smart home app
 
-This project is a smart home system developed using MUI,ZZ Next.js, Nest.js and MySQL technologies. 
+This project is a smart home system developed using MUI, Next.js, Nest.js and MySQL technologies. 
 
 ![](./1.png)
 
