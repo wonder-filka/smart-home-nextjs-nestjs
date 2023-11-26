@@ -1,0 +1,42 @@
+// .main {
+//   display: flex;
+//   flex-direction: column;
+//   height: 100vh;
+//   padding: 2vh 2vw;
+
+//   .mainBlock {
+//     display: block;
+//     padding-top: 14vh;
+//   }
+//   button {
+//     width: 100%;
+//   }
+//   .mainImg {
+//     position: absolute;
+//     bottom: 10px;
+//     left: -40px;
+//     height: auto;
+//     z-index: 1;
+//     img {
+//       max-width: 90vw;
+//       height: auto;
+//     }
+//   }
+// }
+
+// @media (min-width: 480px) {
+//   .main {
+//     display: block;
+//     text-align: left;
+//     .mainBlock {
+//       padding-top: 0vh;
+//       button {
+//         width: fit-content;
+//       }
+
+//       p {
+//         max-width: 600px;
+//       }
+//     }
+//   }
+// }

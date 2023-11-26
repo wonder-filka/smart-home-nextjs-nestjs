@@ -1,0 +1,89 @@
+.controllersList {
+  flex: 1;
+
+  .controllerItem {
+    border-radius: 0.25rem;
+    background: #fff;
+    padding: 2vh 4vw;
+    margin: 2vh 0;
+
+    .controllerWrap {
+      display: flex;
+      justify-content: space-between;
+
+      .controllerInfo {
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        justify-content: space-between;
+        .controllerName {
+          font-size: 14px;
+          font-weight: 700;
+        }
+        .controllerStatus {
+          color: #5dc865;
+          font-weight: 700;
+          font-size: 10px;
+        }
+        .controllerPlace {
+          color: #818181;
+          font-size: 14px;
+        }
+      }
+      .controllerTumblerWrap {
+        display: flex;
+        align-items: center;
+        .controllerTumblerLabel {
+          font-size: 12px;
+          margin-right: 2vw;
+        }
+        .MuiSwitch-input {
+          width: fit-content;
+        }
+      }
+    }
+    .controllersImageItem {
+      margin-top: 2vh;
+      // max-width: 100vw;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.controllerSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+[data-theme="dark"],
+[data-theme="dark"] .controllersList {
+  .controllerItem {
+    border: 1px solid rgba(0, 0, 0, 0.46);
+    background: #131313;
+  }
+}
+
+@media (min-width: 480px) {
+  .controllersList {
+    .controllerItem {
+      width: 350px;
+      padding: 2vh 2vw;
+    }
+  }
+  .userInputs {
+    max-width: 350px;
+  }
+  // .controllersImageItem {
+  //   margin-top: 2vh;
+  //   // max-width: 100vw;
+  //   img {
+  //     // width: 10vw !important;
+  //     height: auto;
+  //   }
+  // }
+}

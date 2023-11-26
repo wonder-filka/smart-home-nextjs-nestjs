@@ -1,0 +1,46 @@
+[data-theme="dark"] .BottomMenu {
+  color: #fff;
+  background-color: #000;
+  .BottonMenuItem {
+    .inactiveTitle {
+      color: white;
+    }
+  }
+}
+
+.BottomMenu {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  height: 70px !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vh 0;
+  background-color: #ebeaea;
+  .BottonMenuItem {
+    text-decoration: none;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .BottonMenuTitle {
+      font-size: 9px;
+    }
+
+    .activeTitle {
+      color: #9a1a1e;
+    }
+    .inactiveTitle {
+      color: #818181;
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  .BottomMenu {
+    display: none;
+  }
+}

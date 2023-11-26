@@ -1,0 +1,18 @@
+.BackBtn {
+  position: fixed;
+  top: 0;
+  background: transparent;
+  padding: 0;
+  height: fit-content;
+  width: 56px;
+  z-index: 100;
+  padding: 2vh 2vw;
+}
+
+[data-theme="dark"] .BackBtn {
+}
+
+@media (min-width: 480px) {
+  .BackBtn {
+  }
+}

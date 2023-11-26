@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  smart-home-back:
+    image: 
+    container_name: 
+    hostname: 
+    restart: 
+    networks:
+      video_net:
+#    environment:
+#      - ASPNETCORE_ENVIRONMENT=docker
+    healthcheck:
+     test: 
+     interval: 5s
+     timeout: 10s
+     retries: 3
+    ports:
+
+  smart-home-mysql-prod:
+    image: 
+    hostname: 
+    volumes:
+    environment: 
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: 
+    networks:
+      video_net:
+
+networks:
+  video_net:
+    driver:

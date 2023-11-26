@@ -1,0 +1,23 @@
+.Menu {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  width: 56px;
+  svg {
+    padding: 2vh 0;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 480px) {
+  .Menu {
+    height: fit-content;
+    position: fixed;
+    right: 0;
+  }
+}

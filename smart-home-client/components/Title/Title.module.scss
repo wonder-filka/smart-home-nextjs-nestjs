@@ -1,0 +1,25 @@
+.Title {
+  position: fixed;
+  top: 0;
+  height: calc(24px + 4vh);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--rubik-font);
+  }
+  // background-color: #fff;
+}
+
+[data-theme="dark"] .Title {
+  background: linear-gradient(180deg, #9a1a1e 0%, #8c171b 100%);
+}
+
+@media (min-width: 480px) {
+  .Title {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+.mainSettingBlock {
+  // padding-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  .userInputs {
+    width: 100%;
+  }
+}
+.codeBtn {
+  color: #9a1a1e !important;
+}
+
+.labelSend {
+  text-align: center;
+}
+.codeSendLabel {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  text-align: center;
+  color: #4caf50;
+  height: 48px;
+  align-items: center;
+  font-weight: 700;
+}
+.codeForm {
+  display: flex;
+  justify-content: center;
+  .codeInput {
+    margin: 0 8px !important;
+  }
+}
+
+@media (min-width: 480px) {
+  .userInputs {
+    max-width: 350px;
+  }
+}

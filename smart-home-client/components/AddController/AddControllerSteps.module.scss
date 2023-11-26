@@ -1,0 +1,30 @@
+.AddController1 {
+  height: calc(100vh - (24px + 4vh) - (70px + 2vh));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .userInputs {
+    width: 100%;
+  }
+  .errorLabel {
+    font-size: 12px;
+    align-self: flex-start;
+  }
+}
+
+.MuiAutocomplete-input:focus {
+  border-color: white !important;
+  box-shadow: 0 0 0 0.2rem rgba(154, 26, 30, 0.25) !important;
+}
+
+@media (min-width: 480px) {
+  .AddController1 {
+    .userInputs {
+      width: 300px;
+    }
+    .errorLabel {
+      align-self: center;
+    }
+  }
+}

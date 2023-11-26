@@ -1,0 +1,20 @@
+.MenuSecond {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .arrow {
+    padding: 2vh 2vw;
+  }
+  h2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 2vw;
+  }
+  .emptyBlock {
+    width: calc(24px + 4vw);
+  }
+}

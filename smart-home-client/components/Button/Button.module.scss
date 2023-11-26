@@ -1,0 +1,83 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 48px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  text-transform: capitalize !important;
+  font-weight: 700;
+  transition: all 0.2s;
+  width: 100%;
+  padding: 0 4vw;
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  svg {
+    width: auto;
+  }
+}
+
+.primary {
+  background: #9a1a1e;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  &:hover {
+    background: #800f13;
+  }
+}
+
+.ghost {
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    // border: 1px solid #d82c02;
+    color: #800f13;
+  }
+}
+
+#googleButtonId {
+  height: 14px !important;
+  .googleButton {
+    svg {
+      position: absolute;
+      height: 14px !important;
+    }
+  }
+}
+
+[data-theme="dark"] .secondary {
+  background: #e4e7eb;
+}
+
+[data-theme="dark"] .ghost {
+  color: white;
+}
+.secondary {
+  // background: #e4e7eb;
+  border-radius: 4px;
+  background-color: #bdc1c5;
+  color: black;
+  border: none;
+  &:hover {
+    background: #bdc1c5;
+  }
+}
+
+@media (min-width: 480px) {
+  .button {
+    width: 200px;
+    padding: 1vh 2vw;
+    svg {
+      width: 50px;
+    }
+  }
+}

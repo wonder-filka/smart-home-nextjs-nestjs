@@ -1,0 +1,33 @@
+.topMenu {
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+  h2 {
+    flex: 1;
+    margin-left: 2vw;
+  }
+}
+
+.AddControllerBlock {
+  padding-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .userInputs {
+    width: 100%;
+  }
+}
+
+.MuiBox-root {
+  justify-content: center;
+}
+
+#add-wifi-autocomplete {
+  width: 200px !important;
+}
+
+@media (min-width: 480px) {
+  .userInputs {
+    max-width: 350px;
+  }
+}
